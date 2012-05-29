@@ -1,6 +1,12 @@
 Croper-Zoomer
 =============
 
+Created for the project "L'archipel des Echappes"
+
+Dual licenced under the GPL v2 and the CeCILL licences.
+
+
+
 PHP script that allows a user to graphically crop and zoom his images.
 
 Requires the GD module for PHP
@@ -8,4 +14,5 @@ Requires the GD module for PHP
 Only tested with PHP 5.3
 
 
-For now (and until i'm asked for it), only returns 640x360px PNG images
+For now (and until i'm asked for it), only returns 1535x864px PNG images (which is 1280x720 with a factor of 1.2, in order to be able to make small zooms on it)
+
